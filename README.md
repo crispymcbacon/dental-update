@@ -40,7 +40,7 @@ fastapi dev api.py
 
 Use the endpoint `/predict_image/` to generate the mask and the basic JSON data (if you are using the web interface, it can be done in the interface).
 
-Up to now it requires a manual process to add the apex and base points of each tooth, this is done with a web interface (see [dental-reconstruction-interface](https://github.com/crispymcbacon/dental-reconstruction-interface)).
+Up to now it requires a manual process to add the apex and base points of each tooth, this is done with a web interface (see [dental-reconstruction-interface](https://github.com/crispymcbacon/dental-update-webapp)).
 
 When you have all the data you can stop the API.
 
@@ -48,7 +48,7 @@ When you have all the data you can stop the API.
 
 Edit the config path of the `main_process.py` script and run it, it will generate the mask and the basic JSON data.
 
-You still need to add the apex and base points of each tooth, this is done with a web interface (see [dental-reconstruction-interface](https://github.com/crispymcbacon/dental-reconstruction-interface)).
+You still need to add the apex and base points of each tooth, this is done with a web interface (see [dental-reconstruction-interface](https://github.com/crispymcbacon/dental-update-webapp)).
 
 **Run the reconstruction**
 
