@@ -1,0 +1,1 @@
+Insert the dentalai_model.pth model in this path.

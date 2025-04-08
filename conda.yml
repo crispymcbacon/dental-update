@@ -1,0 +1,54 @@
+name: dental
+channels:
+  - pytorch
+  - nvidia
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - jupyter
+  - conda
+  - mamba
+  - ipython
+  - ipykernel
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - python-dotenv
+  - pip
+  - pre-commit
+  - black
+  - nbstripout
+  - mypy
+  - flake8
+  - pycodestyle
+  - pydocstyle
+  - opencv
+  - tensorflow
+  - scikit-image
+  - nibabel
+  - pillow
+  - tqdm
+  - tensorboard
+  - scikit-learn
+  - seaborn
+  # - libjpeg-turbo  # Added for torchvision
+  # - jpeg  # Added for torchvision
+  - plotly
+  # Detectron2 dependencies
+  - detectron2
+  - open3d
+  - numpy-stl
+  - statsmodels
+  - pip:
+    - datasets
+    - albumentations
+    - wandb
+    - imgaug
+    - efficientnet-pytorch
+    - timm
+    - "fastapi[standard]"
