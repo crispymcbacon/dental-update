@@ -2,7 +2,8 @@
 
 ## Intro
 
-This project is a collaboration between the Hospital of Trieste and University of Trieste, the goal is to **reconstruct a simple 3d model from standard intraoral pictures**, in order to track teeth movements during aligners therapy
+This project is related to the Master Thesis _"AI-Driven Dental Model Evolution: Updating 3D
+Representations Through Sequential 2D Image Analysis"_ in collaboration between the Hospital of Trieste and University of Trieste. The goal is to **reconstruct a simple 3d model from standard intraoral pictures**, in order to track teeth movements during aligners therapy.
 
 NOTE: this project is still in development status.
 
